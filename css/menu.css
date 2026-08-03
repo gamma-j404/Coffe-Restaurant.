@@ -1,0 +1,142 @@
+
+.menu{
+  text-align: center;
+}
+
+.menu-subtitle{
+  color:#4A3425;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing:2px;
+  margin-bottom: 10px;
+}
+
+.menu-subtitle{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+}
+
+.menu-subtitle::before,
+.menu-subtitle::after{
+    content:"";
+    width:80px;
+    height:2px;
+    background:#C9A227;
+}
+
+.menu h2{
+  font-size:3.5rem;
+  color:#2F2F2F;;
+  line-height:1.2;
+  margin-bottom:20px;
+}
+
+.menu-text{
+  font-size:1.1rem;
+  color:#555;
+  line-height: 1.8;
+  margin-bottom:30px;
+}
+
+.menu-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:30px;
+}
+
+.menu-card{
+  background-color:#FFFDF9;
+  border-radius: 15px;
+  padding:30px;
+  text-align:left;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+
+.menu-card{
+  transition:
+        transform .35s ease,
+        box-shadow .35s ease;
+}
+
+.menu-card:hover{
+  transform:translateY(-10px);
+  box-shadow:0 12px 25px rgba(0,0,0,.18);
+}
+
+.menu-card:hover img{
+    transform:scale(1.08);
+}
+
+
+.menu-card img{
+  height:250px;
+  width:100%;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom:20px;
+  transition:transform .4s ease;
+}
+
+.menu-card h3{
+    font-size:1.6rem;
+    color:#2F2F2F;
+    margin:15px 0 10px;
+}
+
+
+.menu-card p{
+  font-size:1rem;
+  color:#555;
+  line-height:1.7;
+  margin-bottom:30px;
+}
+
+.price{
+    display:block;
+    font-size:1.25rem;
+    font-weight:700;
+    color:#6F4E37;
+    margin-bottom:15px;
+}
+
+.order-btn{
+    padding:12px 30px;
+    background:#6F4E37;
+    color:white;
+    border-radius:8px;
+    text-decoration:none;
+    transition:.3s;
+}
+
+
+.order-btn:hover{
+  background:#D4A373;
+  transform:translateY(-3px);
+}
+
+
+
+
+
+@media (max-width:992px){
+    .menu-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+@media(max-width:768px) {
+ 
+  .menu-grid{
+    grid-template-columns:1fr;
+  }
+
+  
+  .order-btn{
+    padding:10px 15px;
+  }
+}
