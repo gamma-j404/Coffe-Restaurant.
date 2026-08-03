@@ -11,9 +11,6 @@ A modern, fully responsive restaurant and café website built using **HTML5**, *
 
 ---
 
-## 📸 Preview
-
-![Brew & Bloom Preview](Img/coffe-restaurant.png)
 
 ---
 
