@@ -7,13 +7,13 @@ A modern, fully responsive restaurant and café website built using **HTML5**, *
 
 ## 🌐 Live Demo
 
-🔗 https://your-live-demo-link.com
+🔗 https://gamma-j404.github.io/Coffe-Restaurant
 
 ---
 
 ## 📸 Preview
 
-![Brew & Bloom Preview](images/preview.png)
+![Brew & Bloom Preview](Img/coffe-restaurant.png)
 
 ---
 
